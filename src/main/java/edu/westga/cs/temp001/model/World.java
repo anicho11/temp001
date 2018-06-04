@@ -48,4 +48,28 @@ public class World {
 		
 		return greeting;
 	}
+	
+	/**
+	 * Accepts a language argument that, if not null or empty, will determine a string
+	 * to be returned.
+	 * 
+	 * 
+	 * @precondition lang != null, lang != ""
+	 * @postcondition farewell is returned based on lang input
+	 * 
+	 * @param lang String representation of a language.
+	 * @return farewell String farewell.
+	 */
+	public String getGoodbye(String lang) {
+		
+		if (lang == "English") {
+			return "Goodbye World!";
+		}
+		else if (lang == "Spanish") {
+			return "Hasta Luego Mundo!";
+		}
+		else {
+			return "Invalid language.";
+		}
+	}
 }
