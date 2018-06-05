@@ -6,7 +6,7 @@ package edu.westga.cs.temp001;
 
 import java.net.URL;
 
-import edu.westga.cs.temp001.model.World;
+//import edu.westga.cs.temp001.model.World;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
