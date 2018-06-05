@@ -21,8 +21,14 @@ public class temp001 {
 	 */
 	public static void main(String[] args) {
 		World world = new World();
-		System.out.println("English:\t" + world.getGreeting("English"));
+		System.out.println("Greetings:");
+		System.out.println("\tEnglish:\t" + world.getGreeting("English"));
 		System.out.println();
-		System.out.println("Spanish:\t" + world.getGreeting("Spanish"));
+		System.out.println("\tSpanish:\t" + world.getGreeting("Spanish"));
+		System.out.println();
+		System.out.println("Farewells:");
+		System.out.println("\tEnglish:\t" + world.getGoodbye("English"));
+		System.out.println();
+		System.out.println("\tSpanish:\t" + world.getGoodbye("Spanish"));
 	}
 }
